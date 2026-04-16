@@ -1,0 +1,52 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:smartresultdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    open-in-view: false
+
+  thymeleaf:
+    cache: false
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: your-email@gmail.com
+    password: your-app-password
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+app:
+  jwt:
+    # Use a long random string for production. Keep secret safe.
+    secret: "mySecretKeyForJWTTokenGeneration12345678901234567890"
+    accessTokenMinutes: 60
+  otp:
+    ttlMinutes: 10
+  demo:
+    # If true, OTP is also logged for easy local testing.
+    logOtp: true
+
+logging:
+  level:
+    org.springframework.security: INFO
+    org.hibernate.SQL: WARN
+

@@ -1,0 +1,27 @@
+# Maven
+/target/
+!target/classes
+**/target/
+
+# Build output
+*.log
+*.tmp
+*.class
+*.jar
+*.war
+
+# IDE files
+*.iml
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Runtime files
+hs_err_pid*
+
+# Database files
+*.db
+*.mv.db
