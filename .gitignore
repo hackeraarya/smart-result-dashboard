@@ -25,3 +25,7 @@ hs_err_pid*
 # Database files
 *.db
 *.mv.db
+
+# Local tools and installers
+.gh/
+install-gh.ps1
