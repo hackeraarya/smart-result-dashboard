@@ -54,23 +54,22 @@ cd backend
 
 ## GitHub Repo Setup
 
-This project is ready for GitHub upload.
+This project is already published to GitHub at:
 
-After creating the remote repository on GitHub, run:
+https://github.com/hackeraarya/smart-result-dashboard
+
+To clone the repository locally:
 
 ```bash
-git remote add origin https://github.com/<your-username>/<repo-name>.git
-git branch -M main
-git push -u origin main
+git clone https://github.com/hackeraarya/smart-result-dashboard.git
+cd smart-result-dashboard/backend
 ```
 
 ## Contributors
 
-- @your-github-username
-- @contributor-1
-- @contributor-2
+- @hackeraarya
 
-> Replace the contributor usernames above with actual GitHub handles.
+> If you have additional collaborators, add their GitHub handles below.
 
 ## Notes
 
