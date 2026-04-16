@@ -68,6 +68,9 @@ cd smart-result-dashboard/backend
 ## Contributors
 
 - @hackeraarya
+- @Manya-Mittal2004
+- @nikhilrohila03
+- @Ashutosh-Mishra001
 
 > If you have additional collaborators, add their GitHub handles below.
 
